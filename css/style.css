@@ -9,6 +9,7 @@ body {
     width: 90%;
     margin: auto;
     overflow: hidden;
+    border: 1px solid blue;
 }
 
 /* Showcase section */
@@ -19,8 +20,13 @@ body {
 
 #showcase header img {
     float: left;
-    margin-top: 30px;
+    margin-top: 50px;
     height: 30px;
+    border: 1px solid red;
+}
+
+#showcase div#logo {
+    width: 100%;
 }
 
 #showcase header button {
