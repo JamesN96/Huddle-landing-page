@@ -11,6 +11,12 @@ body {
     overflow: hidden;
 }
 
+.container-2 {
+    width: 87%;
+    margin: auto;
+    overflow: hidden;
+}
+
 .body-div {
     border: 1px solid red;
     margin-bottom: 30px;
@@ -86,6 +92,8 @@ body {
     margin-top: 100px;
 }
 
+/* Grow Div */
+
 #main div#grow h2, #main div#grow p {
     float: left;
     width: 40%;
@@ -110,5 +118,27 @@ body {
     margin-right: 50px;
     margin-top: -260px;
 }
-    
+
+/* Flow Div */
+
+#main div#flow img {
+    float: left;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 120px;
+} 
+
+#main div#flow h2 {
+    float: right;
+    margin-right: 220px;
+    margin-top: 160px;
+    margin-bottom: -5px;
+    font-family: "Poppins", sans-serif;
+}
+
+#main div#flow p {
+    float: right;
+    width: 41%;
+    margin-right: 25px;
+}
 
