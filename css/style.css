@@ -75,3 +75,14 @@ body {
     height: 490px;
 }
 
+/*  Main section */
+
+#main {
+    margin-top: 100px;
+}
+
+#main .body-div {
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
