@@ -37,18 +37,27 @@ body {
     font-size: 0.8em;
     font-weight: bold;
     box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
-    
 }
 
 #showcase div#showcase-info {
     float: left;
     width: 40%;
+    margin-top: 130px;
+}
+
+#showcase div#showcase-info h1 {
+    font-size: 2.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
 
 #showcase div#showcase-image {
     float: right;
+    margin-top: 65px;
+    padding-right: 5px;
 }
 
 #showcase div#showcase-image img {
-    height: 450px;
+    height: 490px;
+
 }
