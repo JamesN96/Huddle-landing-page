@@ -12,6 +12,11 @@ body {
     overflow: hidden;
 }
 
+.body-div {
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
 /* Showcase section */
 
 #showcase {
@@ -81,8 +86,4 @@ body {
     margin-top: 100px;
 }
 
-#main .body-div {
-    border: 1px solid red;
-    margin-bottom: 30px;
-}
 
