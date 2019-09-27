@@ -140,5 +140,32 @@ body {
     float: right;
     width: 41%;
     margin-right: 25px;
+    color: hsl(208, 11%, 55%);
+}
+
+/* Users Div */
+
+#main div#users h2, #main div#users p {
+    float: left;
+    width: 40%;
+}
+
+#main div#users h2 {
+    margin-left: 125px;
+    margin-top: 130px;
+    margin-bottom: -5px;
+    font-family: "Poppins", sans-serif;
+}
+
+#main div#users p {
+    margin-right: 150px;
+    margin-left: 125px;
+    color: hsl(208, 11%, 55%);
+}
+
+#main div#users img {
+    float: right;
+    height: 300px;
+    margin: -100px 25px 0 0;
 }
 
