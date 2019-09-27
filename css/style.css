@@ -10,3 +10,17 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
+/* Showcase section */
+
+#showcase {
+    background: url("/images/bg-hero-desktop.svg");
+}
+
+#showcase header h1 {
+    float: left;
+}
+
+#showcase header button {
+    float: right;
+}
