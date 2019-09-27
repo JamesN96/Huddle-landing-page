@@ -28,6 +28,8 @@ body {
 #showcase {
     background: url("/images/bg-hero-desktop.svg");
     background-color: hsl(208, 11%, 55%);
+    padding-bottom: 70px;
+    margin-bottom: 150px;
 }
 
 #showcase header img {
