@@ -1,7 +1,6 @@
 body {
     font-size: 18px;
     font-family: "Open Sans", sans-serif; 
-    background-color: hsl(208, 11%, 55%);
 }
 
 /* Global */
@@ -22,6 +21,7 @@ body {
 
 #showcase {
     background: url("/images/bg-hero-desktop.svg");
+    background-color: hsl(208, 11%, 55%);
 }
 
 #showcase header img {
@@ -29,7 +29,6 @@ body {
     margin-top: 50px;
     height: 30px;
     width: 16%;
-    border: 1px solid red;
 }
 
 #showcase div#logo {
