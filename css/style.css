@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     font-family: "Open Sans", sans-serif; 
+    background-color: hsl(208, 11%, 55%);
 }
 
 /* Global */
@@ -21,6 +22,7 @@ body {
     float: left;
     margin-top: 50px;
     height: 30px;
+    width: 16%;
     border: 1px solid red;
 }
 
@@ -51,6 +53,18 @@ body {
     font-weight: 600;
 }
 
+#showcase div#showcase-info button {
+    width: 55%;
+    height: 55px;
+    border-radius: 30px;
+    background: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
 #showcase div#showcase-image {
     float: right;
     margin-top: 65px;
@@ -59,5 +73,5 @@ body {
 
 #showcase div#showcase-image img {
     height: 490px;
-
 }
+
