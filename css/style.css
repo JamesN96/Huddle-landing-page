@@ -14,13 +14,13 @@ body {
 .container-2 {
     width: 87%;
     margin: auto;
-    overflow: hidden;
 }
 
 .body-div {
-    border: 1px solid red;
-    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px -9px hsl(210, 9%, 78%);
+    margin-bottom: 40px;
     min-height: 430px;
+    border-radius: 15px;
 }
 
 /* Showcase section */
