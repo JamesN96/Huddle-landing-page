@@ -177,8 +177,10 @@ div#get-started {
     border: 1px solid red;
     width: 60%;
     margin: auto;
-    min-height: 280px;
+    min-height: 275px;
     text-align: center;
+    border-radius: 20px;
+    margin-top: 125px;
 }
 
 div#get-started h1 {
