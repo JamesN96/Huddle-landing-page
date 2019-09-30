@@ -202,13 +202,30 @@ div#get-started button {
     font-weight: bold;
 }
 
+/* FOOTER */
+
 footer {
     background-color: hsl(192, 100%, 9%);
     color: white;
-    padding-left: 90px;
+    padding-left: 50px;
 }
+
+/* Footer LEFT */
 
 footer div#footer-left {
     width: 30%;
     float: left;
+}
+
+footer div#spans {
+    float: left;
+    width: 10%;
+}
+
+footer div#footer-left p {
+    display: inline;
+}
+
+footer div#footer-left span {
+    padding-right: 20px;
 }
