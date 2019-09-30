@@ -219,7 +219,6 @@ footer {
 footer div#footer-left {
     width: 40%;
     float: left;
-    border: 1px solid red;
 }
 
 footer div#footer-left #footer-logo {
@@ -258,14 +257,12 @@ footer div#footer-left div#spans img {
 
 footer div#footer-middle {
     float: left;
-    border: 1px solid yellow;
     height: 400px;
     font-size: 18px;
 }
 
 /* Footer middle a */
 footer div#footer-middle-a {
-    border: 1px solid green;
     float: left;
     margin-left: -35px;
     margin-top: 128px
@@ -288,7 +285,6 @@ footer div#footer-middle-a ul li a, footer div#footer-middle-b ul li a {
 /* footer middle b */
 
 footer div#footer-middle-b {
-    border: 1px solid orange;
     float: right;
     margin-left: 78px;
     margin-top: 128px
@@ -298,5 +294,23 @@ footer div#footer-middle-b {
 
 footer div#footer-right {
     float: right;
-    border: 1px solid teal;
+    margin-right: 20px;
+}
+ 
+footer div#footer-right i {
+    margin-top: 150px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+footer div#footer-right i#icon-1 {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+footer div#footer-right p {
+    font-size: 12px;
+    margin-top: 180px;
 }
