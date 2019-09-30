@@ -218,6 +218,7 @@ footer {
 footer div#footer-left {
     width: 40%;
     float: left;
+    border: 1px solid red;
 }
 
 footer div#spans {
@@ -229,9 +230,39 @@ footer div#spans {
 
 footer div#footer-left p {
     width: 80%;
-
 }
 
 footer div#footer-left div#spans span {
     padding-right: 20px;
+}
+
+/* Footer middle */
+
+footer div#footer-middle {
+    float: left;
+    border: 1px solid yellow;
+    height: 400px;
+}
+
+footer div#footer-middle-a {
+    border: 1px solid green;
+    float: left;
+}
+
+footer div#footer-middle-a ul {
+    list-style: none;
+}
+
+footer div#footer-middle-a ul li {
+    margin-top: 20px;   
+}
+
+footer div#footer-middle-a ul li a {
+    text-decoration: none;
+}
+
+
+footer div#footer-middle-b {
+    border: 1px solid orange;
+    float: right;
 }
