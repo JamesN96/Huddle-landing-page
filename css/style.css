@@ -206,26 +206,32 @@ div#get-started button {
 
 footer {
     background-color: hsl(192, 100%, 9%);
-    color: white;
-    padding-left: 50px;
+    color: hsl(193, 100%, 96%);
+    padding: 150px 0 150px 50px;
+    font-family: "Open Sans";
+    font-size: 16px;    
 }
+
 
 /* Footer LEFT */
 
 footer div#footer-left {
-    width: 30%;
+    width: 40%;
     float: left;
 }
 
 footer div#spans {
     float: left;
     width: 10%;
+    height: 200px;
+    margin-top: 20px;
 }
 
 footer div#footer-left p {
-    display: inline;
+    width: 80%;
+
 }
 
-footer div#footer-left span {
+footer div#footer-left div#spans span {
     padding-right: 20px;
 }
