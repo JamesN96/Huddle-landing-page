@@ -207,7 +207,7 @@ div#get-started button {
 footer {
     background-color: hsl(192, 100%, 9%);
     color: hsl(193, 100%, 96%);
-    padding: 150px 0 150px 50px;
+    padding: 160px 0 40px 50px;
     font-family: "Open Sans";
     font-size: 16px;    
 }
@@ -219,6 +219,10 @@ footer div#footer-left {
     width: 40%;
     float: left;
     border: 1px solid red;
+}
+
+footer div#footer-left img {
+    background-color: white;
 }
 
 footer div#spans {
