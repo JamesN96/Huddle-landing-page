@@ -232,7 +232,7 @@ footer div#footer-left p {
     width: 80%;
 }
 
-footer div#footer-left div#spans span {
+footer div#footer-left div#spans img {
     padding-right: 20px;
 }
 
@@ -244,11 +244,13 @@ footer div#footer-middle {
     height: 400px;
 }
 
+/* Footer middle a */
 footer div#footer-middle-a {
     border: 1px solid green;
     float: left;
 }
 
+/* Footer middle a and b */
 footer div#footer-middle-a ul, footer div#footer-middle-b ul {
     list-style: none;
 }
@@ -262,8 +264,16 @@ footer div#footer-middle-a ul li a, footer div#footer-middle-b ul li a {
     color: hsl(193, 100%, 96%);
 }
 
+/* footer middle b */
 
 footer div#footer-middle-b {
     border: 1px solid orange;
     float: right;
+}
+
+/* Footer Right */
+
+footer div#footer-right {
+    float: right;
+    border: 1px solid teal;
 }
