@@ -222,8 +222,9 @@ footer div#footer-left {
     margin-top: 30px;
 }
 
-footer div#footer-left img {
+footer div#footer-left #footer-logo {
     background-color: white;
+    margin-bottom: 30px;
 }
 
 footer div#spans {
