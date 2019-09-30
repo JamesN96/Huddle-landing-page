@@ -249,16 +249,17 @@ footer div#footer-middle-a {
     float: left;
 }
 
-footer div#footer-middle-a ul {
+footer div#footer-middle-a ul, footer div#footer-middle-b ul {
     list-style: none;
 }
 
-footer div#footer-middle-a ul li {
+footer div#footer-middle-a ul li, footer div#footer-middle-b ul li{
     margin-top: 20px;   
 }
 
-footer div#footer-middle-a ul li a {
+footer div#footer-middle-a ul li a, footer div#footer-middle-b ul li a {
     text-decoration: none;
+    color: hsl(193, 100%, 96%);
 }
 
 
