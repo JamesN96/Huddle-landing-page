@@ -207,7 +207,7 @@ div#get-started button {
 footer {
     background-color: hsl(192, 100%, 9%);
     color: hsl(193, 100%, 96%);
-    padding: 160px 0 40px 50px;
+    padding: 120px 0 40px 50px;
     font-family: "Open Sans";
     font-size: 16px;    
     line-height: 1.5;
@@ -220,25 +220,35 @@ footer div#footer-left {
     width: 40%;
     float: left;
     border: 1px solid red;
-    padding-top: 50px;
 }
 
 footer div#footer-left #footer-logo {
     background-color: white;
     margin-bottom: 23px;
+    margin-top: 70px;
 }
 
 footer div#spans {
     float: left;
     width: 5%;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 22px;
     padding-right: 15px
+}
+
+footer div#spans #img1 {
+    margin-bottom: 65px;
+}
+
+footer div#spans #img2 {
+    margin-bottom: 25px;
 }
 
 footer div#footer-left p {
     width: 80%;
+    padding-bottom: 5px;
 }
+
 
 footer div#footer-left div#spans img {
     padding-right: 20px;
