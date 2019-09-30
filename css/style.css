@@ -290,6 +290,8 @@ footer div#footer-middle-a ul li a, footer div#footer-middle-b ul li a {
 footer div#footer-middle-b {
     border: 1px solid orange;
     float: right;
+    margin-left: 78px;
+    margin-top: 128px
 }
 
 /* Footer Right */
