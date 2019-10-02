@@ -416,6 +416,8 @@ footer div#footer-right p {
 }
 
 #main div#grow img {
+    position: relative;
+    top: 70px;
     height: 250px;
     padding-left: 30px;
     padding-top: 40px;
