@@ -412,11 +412,22 @@ footer div#footer-right p {
 #main div#grow {
     margin-top: -68px;
     text-align: center;
+    width: 100%;
+}
+
+#main div#grow img {
+    height: 250px;
+    padding-left: 30px;
+    padding-top: 40px;
 }
 
 #main div#grow h2 {
     font-family: "Poppins", sans-serif;
     position: relative;
-    top: 250px;
+    top: 400px;
+    width: 100%;
+    left: 50%;
+    margin-left: -50%;
 }
+
 }
