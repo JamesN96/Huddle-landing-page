@@ -333,7 +333,7 @@ footer div#footer-right p {
 /* Global */
 
 .body-div {
-    min-height: 650px;
+    min-height: 630px;
 }
      
 /* Showcase section */
@@ -424,10 +424,20 @@ footer div#footer-right p {
 #main div#grow h2 {
     font-family: "Poppins", sans-serif;
     position: relative;
-    top: 400px;
+    top: 395px; 
     width: 100%;
     left: 50%;
     margin-left: -50%;
 }
 
+#main div#grow p {
+    position: relative;
+    top: 390px;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    line-height: 1.6em;
+    font-family: "Open Sans";
+    padding-top: 5px;
+}
 }
