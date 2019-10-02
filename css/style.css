@@ -329,6 +329,12 @@ footer div#footer-right p {
 /* Media Queries */
 
  @media(max-width: 500px) {
+
+/* Global */
+
+.body-div {
+    min-height: 650px;
+}
      
 /* Showcase section */
 
