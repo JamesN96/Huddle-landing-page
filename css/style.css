@@ -225,7 +225,6 @@ footer {
     line-height: 1.5;
 }
 
-
 /* Footer LEFT */
 
 footer div#footer-left {
@@ -326,3 +325,79 @@ footer div#footer-right p {
     font-size: 12px;
     margin-top: 180px;
 }
+
+/* Media Queries */
+
+ @media(max-width: 500px) {
+     
+/* Showcase section */
+
+#showcase {
+    background: url("/images/bg-hero-desktop.svg");
+    background-color: hsl(208, 11%, 55%);
+    padding-bottom: 40px;
+}
+
+#showcase header img {
+    float: left;
+    margin-top: 40px;
+    width: 35%;
+    height: 35%;
+}
+
+#showcase div#logo {
+    width: 100%;
+}
+
+#showcase header button {
+    float: right;
+    margin-top: 35px;
+    width: 30%;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 0.8em;
+    font-weight: bold;
+    box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
+}
+
+#showcase div#showcase-info, #showcase div#showcase-image {
+    float: none;
+}
+
+#showcase div#showcase-info {
+    text-align: center;
+    width: 93%;
+    margin: 105px auto 0px;
+}
+
+#showcase div#showcase-info h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+#showcase div#showcase-info p {
+    margin-top: 32px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+#showcase div#showcase-info button {
+    width: 75%;
+    height: 55px;
+    border-radius: 30px;
+    background: hsl(322, 100%, 66%);
+    color: hsla(197, 19%, 93%, 0.961);
+    margin-top: 15px;
+    font-size: 15px;
+    border: none;
+    font-family: "Open Sans";
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+#showcase div#showcase-image img {
+    height: 280px;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+ }
