@@ -360,7 +360,7 @@ footer div#footer-right p {
     box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
 }
 
-#showcase div#showcase-info, #showcase div#showcase-image {
+#showcase div#showcase-info, #showcase div#showcase-image, #main div#grow h2, #main div#grow p, #main div#grow img {
     float: none;
 }
 
@@ -400,4 +400,17 @@ footer div#footer-right p {
     padding-left: 30px;
     margin-top: 5px;
 }
- }
+
+/* Grow Div */
+
+#main div#grow {
+    margin-top: -68px;
+    text-align: center;
+}
+
+#main div#grow h2 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 250px;
+}
+}
