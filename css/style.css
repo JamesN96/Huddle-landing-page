@@ -367,7 +367,7 @@ footer div#footer-right p {
     box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
 }
 
-#showcase div#showcase-info, #showcase div#showcase-image, #main div#grow h2, #main div#grow p, #main div#grow img, #main div#flow img,#main div#flow h2, #main div#flow p, #main div#users img, #main div#users h2, #main div#users p {
+#showcase div#showcase-info, #showcase div#showcase-image, #main div#grow h2, #main div#grow p, #main div#grow img, #main div#flow img,#main div#flow h2, #main div#flow p, #main div#users img, #main div#users h2, #main div#users p, footer div#footer-left, footer div#footer-middle, footer div#footer-right {
     float: none;
 }
 
