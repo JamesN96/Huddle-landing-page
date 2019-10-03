@@ -554,15 +554,25 @@ footer div#footer-left #footer-logo {
 
 footer div#footer-left p {
     margin-top: 5px;
+    padding-bottom: 19px;
 }
 
 footer div#spans {
     margin-top: 12px;
     padding-right: 30px;
+    height: 270px;
 }
 
 footer div#spans #img1, #img2, #img3 {
     height: 22px;
+}
+
+footer div#spans #img1 {
+    padding-bottom: 50px;
+}
+
+footer div#spans #img2 {
+    padding-bottom: 15px;
 }
 
 }
