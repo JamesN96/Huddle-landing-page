@@ -469,4 +469,18 @@ footer div#footer-right p {
     margin-left: -37.5%;
     bottom: 90px;
 }
+
+/* USERS */
+
+#main div#users {
+    width: 100%;
+    text-align: center;
+}
+
+#main div#users img {
+    position: relative;
+    height: 240px;
+    margin-left: 30px;
+    bottom: 120px;
+}
 }
