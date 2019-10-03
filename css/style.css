@@ -425,7 +425,6 @@ footer div#footer-right p {
 }
 
 #main div#grow h2 {
-    font-family: "Poppins", sans-serif;
     position: relative;
     top: 395px; 
     width: 100%;
@@ -444,9 +443,21 @@ footer div#footer-right p {
     padding-top: 5px;
 }
 
+/* Flow */
+#main div#flow {
+    width: 100%;
+    text-align: center;
+}
+
 #main div#flow img {
     height: 250px;
     width: 80%;
-    margin-left: 40px;
+    margin-left: 0px;
+}
+
+#main div#flow h2 {
+    position: relative;
+    width: 100%;
+    bottom: 90px;
 }
 }
