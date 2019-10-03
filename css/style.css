@@ -525,4 +525,18 @@ footer div#footer-right p {
     height: 55px;
     font-size: 14px;
 }
+
+/* Footer */
+
+footer div.container {
+    width: 100%;
+    border: 1px solid orange;
+    margin-left: -30px;
+}
+
+footer div#footer-left {
+    width: 100%;
+    border: 1px solid red;
+    margin-left: 0px;
+}
 }
