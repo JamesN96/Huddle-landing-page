@@ -444,4 +444,9 @@ footer div#footer-right p {
     padding-top: 5px;
 }
 
+#main div#flow img {
+    height: 250px;
+    width: 80%;
+    margin-left: 40px;
+}
 }
