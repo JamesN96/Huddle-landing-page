@@ -532,6 +532,10 @@ footer div#footer-right p {
 
 /* Footer */
 
+footer {
+    font-size: 19px;
+}
+
 footer div.container {
     width: 100%;
     border: 1px solid orange;
@@ -543,4 +547,22 @@ footer div#footer-left {
     border: 1px solid red;
     margin-left: 0px;
 }
+
+footer div#footer-left #footer-logo {
+    margin-top: 57px;
+}
+
+footer div#footer-left p {
+    margin-top: 5px;
+}
+
+footer div#spans {
+    margin-top: 12px;
+    padding-right: 30px;
+}
+
+footer div#spans #img1, #img2, #img3 {
+    height: 22px;
+}
+
 }
