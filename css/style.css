@@ -408,6 +408,11 @@ footer div#footer-right p {
     margin-top: 5px;
 }
 
+/* Main */
+
+#main {
+    margin-bottom: -10px;
+}
 /* Grow Div */
 
 #main div#grow {
@@ -511,7 +516,7 @@ footer div#footer-right p {
 
 #overlap div#get-started h1 {
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     font-size: 23px;
 }
 
