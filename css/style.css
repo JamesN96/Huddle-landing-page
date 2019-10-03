@@ -507,6 +507,10 @@ footer div#footer-right p {
 
 /* Overlap */
 
+#overlap {
+    margin-bottom: -50px;
+}
+
 #overlap div#get-started {
     width: 95%;
     left: 50%;
