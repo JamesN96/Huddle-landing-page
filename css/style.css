@@ -575,4 +575,18 @@ footer div#spans #img2 {
     padding-bottom: 15px;
 }
 
+/* Footer middle */
+
+footer div#footer-middle {
+    font-size: 23px;
+}
+
+footer div#footer-middle-a {
+    margin-top: 37px;
+}
+
+footer div#footer-middle-b {
+    margin-top: 21px;
+    margin-left: -36px;
+}
 }
