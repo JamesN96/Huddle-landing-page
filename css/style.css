@@ -589,4 +589,18 @@ footer div#footer-middle-b {
     margin-top: 21px;
     margin-left: -36px;
 }
+
+/* Footer right */
+
+footer div#footer-right {
+    text-align: center;
+    position: relative;
+    bottom: 168px;
+    margin-bottom: -300px;
+}
+
+footer div#footer-right p {
+    position: relative;
+    bottom: 145px;
+}
 }
