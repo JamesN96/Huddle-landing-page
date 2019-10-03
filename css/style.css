@@ -460,4 +460,13 @@ footer div#footer-right p {
     width: 100%;
     bottom: 90px;
 }
+
+#main div#flow p {
+    position: relative;
+    width: 75%;
+    line-height: 1.6em;
+    left: 50%;
+    margin-left: -37.5%;
+    bottom: 90px;
+}
 }
