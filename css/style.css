@@ -334,6 +334,7 @@ footer div#footer-right p {
 
 .body-div {
     min-height: 630px;
+    margin-bottom: 50px;
 }
      
 /* Showcase section */
@@ -366,7 +367,7 @@ footer div#footer-right p {
     box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
 }
 
-#showcase div#showcase-info, #showcase div#showcase-image, #main div#grow h2, #main div#grow p, #main div#grow img {
+#showcase div#showcase-info, #showcase div#showcase-image, #main div#grow h2, #main div#grow p, #main div#grow img, #main div#flow img,#main div#flow h2, #main div#flow p {
     float: none;
 }
 
@@ -442,4 +443,5 @@ footer div#footer-right p {
     font-family: "Open Sans";
     padding-top: 5px;
 }
+
 }
