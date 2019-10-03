@@ -498,6 +498,13 @@ footer div#footer-right p {
     left: 50%;
     margin-left: -36%;
     top: 395px;
+}
 
+/* Overlap */
+
+#overlap div#get-started {
+    width: 95%;
+    left: 50%;
+    margin-left: -47.5%;
 }
 }
