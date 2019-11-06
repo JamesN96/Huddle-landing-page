@@ -1,361 +1,378 @@
 body {
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif; 
-    width: 100%;
-    margin: 0px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin: 0px;
 }
 
 /* Global */
 
 .container {
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .container-2 {
-    width: 87%;
-    margin: auto;
-    padding-bottom: 300px;
+  width: 87%;
+  margin: auto;
+  padding-bottom: 300px;
 }
 
 .body-div {
-    box-shadow: 0px 0px 20px -9px hsl(210, 9%, 78%);
-    margin-bottom: 40px;
-    min-height: 430px;
-    border-radius: 15px;
+  box-shadow: 0px 0px 20px -9px hsl(210, 9%, 78%);
+  margin-bottom: 40px;
+  min-height: 430px;
+  border-radius: 15px;
 }
 
 /* Showcase section */
 
 #showcase {
-    background: url("/images/bg-hero-desktop.svg");
-    background-color: hsl(208, 11%, 55%);
-    padding-bottom: 70px;
-    margin-bottom: 150px;
+  background: url("/images/bg-hero-desktop.svg");
+  background-color: hsl(208, 11%, 55%);
+  padding-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 #showcase header img {
-    float: left;
-    margin-top: 50px;
-    height: 30px;
-    width: 16%;
+  float: left;
+  margin-top: 50px;
+  height: 30px;
+  width: 16%;
 }
 
 #showcase div#logo {
-    width: 100%;
+  width: 100%;
 }
 
 #showcase header button {
-    float: right;
-    margin-top: 35px;
-    width: 16%;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 0.8em;
-    font-weight: bold;
-    box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
+  float: right;
+  margin-top: 35px;
+  width: 16%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 0.8em;
+  font-weight: bold;
+  box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
 }
 
 #showcase div#showcase-info {
-    float: left;
-    width: 40%;
-    margin-top: 130px;
+  float: left;
+  width: 40%;
+  margin-top: 130px;
 }
 
 #showcase div#showcase-info h1 {
-    font-size: 2.2em;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  font-size: 2.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 #showcase div#showcase-info button {
-    width: 55%;
-    height: 55px;
-    border-radius: 30px;
-    background: hsl(322, 100%, 66%);
-    color: hsl(193, 100%, 96%);
-    margin-top: 20px;
-    font-size: 14px;
-    font-weight: 500;
-    border: none;
+  width: 55%;
+  height: 55px;
+  border-radius: 30px;
+  background: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
 }
 
 #showcase div#showcase-image {
-    float: right;
-    margin-top: 65px;
-    padding-right: 5px;
+  float: right;
+  margin-top: 65px;
+  padding-right: 5px;
 }
 
 #showcase div#showcase-image img {
-    height: 490px;
+  height: 490px;
 }
 
 /*  Main section */
 
 #main {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 /* Grow Div */
 
-#main div#grow h2, #main div#grow p {
-    float: left;
-    width: 40%;
+#main div#grow h2,
+#main div#grow p {
+  float: left;
+  width: 40%;
 }
 
 #main div#grow h2 {
-    margin-top: 150px;
-    margin-left: 142px;
-    margin-bottom: 5px;
-    font-family: "Poppins", sans-serif;
+  margin-top: 150px;
+  margin-left: 142px;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 #main div#grow p {
-    margin-right: 200px;
-    margin-left: 142px;
-    color: hsl(208, 11%, 55%);
+  margin-right: 200px;
+  margin-left: 142px;
+  color: hsl(208, 11%, 55%);
 }
 
 #main div#grow img {
-    float: right;
-    height: 340px;
-    margin-right: 50px;
-    margin-top: -260px;
+  float: right;
+  height: 340px;
+  margin-right: 50px;
+  margin-top: -260px;
 }
 
 /* Flow Div */
 
 #main div#flow img {
-    float: left;
-    height: 300px;
-    margin-top: 70px;
-    margin-left: 120px;
-} 
+  float: left;
+  height: 300px;
+  margin-top: 70px;
+  margin-left: 120px;
+}
 
 #main div#flow h2 {
-    float: right;
-    margin-right: 220px;
-    margin-top: 160px;
-    margin-bottom: -5px;
-    font-family: "Poppins", sans-serif;
+  float: right;
+  margin-right: 220px;
+  margin-top: 160px;
+  margin-bottom: -5px;
+  font-family: "Poppins", sans-serif;
 }
 
 #main div#flow p {
-    float: right;
-    width: 41%;
-    margin-right: 25px;
-    color: hsl(208, 11%, 55%);
+  float: right;
+  width: 41%;
+  margin-right: 25px;
+  color: hsl(208, 11%, 55%);
 }
 
 /* Users Div */
 
-#main div#users h2, #main div#users p {
-    float: left;
-    width: 40%;
+#main div#users h2,
+#main div#users p {
+  float: left;
+  width: 40%;
 }
 
 #main div#users h2 {
-    margin-left: 125px;
-    margin-top: 130px;
-    margin-bottom: -5px;
-    font-family: "Poppins", sans-serif;
+  margin-left: 125px;
+  margin-top: 130px;
+  margin-bottom: -5px;
+  font-family: "Poppins", sans-serif;
 }
 
 #main div#users p {
-    margin-right: 150px;
-    margin-left: 125px;
-    color: hsl(208, 11%, 55%);
+  margin-right: 150px;
+  margin-left: 125px;
+  color: hsl(208, 11%, 55%);
 }
 
 #main div#users img {
-    float: right;
-    height: 300px;
-    margin: -100px 25px 0 0;
+  float: right;
+  height: 300px;
+  margin: -100px 25px 0 0;
 }
 
 /* Overlap div */
 
 #overlap {
-    position: relative;
+  position: relative;
 }
 
 #overlap div#get-started {
-    background-color: white;
-    box-shadow: 0px 0px 20px -9px hsl(210, 9%, 78%);
-    text-align: center;
-    min-height: 280px;
-    border-radius: 20px;
-    position: absolute;
-    z-index: 10;
-    width: 56%;
-    left: 50%;
-    margin-left: -28%;
-    top: 50%; 
-    margin-top: -190px;
+  background-color: white;
+  box-shadow: 0px 0px 20px -9px hsl(210, 9%, 78%);
+  text-align: center;
+  min-height: 280px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 10;
+  width: 56%;
+  left: 50%;
+  margin-left: -28%;
+  top: 50%;
+  margin-top: -190px;
 }
 
 div#get-started h1 {
-    margin-top: 70px;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.8em;
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8em;
 }
 
 div#get-started button {
-    width: 50%;
-    height: 80px;
-    border-radius: 40px;
-    background-color:hsl(322, 100%, 66%);
-    color: hsla(194, 100%, 96%, 0.899);
-    font-family: "Open Sans", sans-serif; 
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 10px;
+  width: 50%;
+  height: 80px;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+  color: hsla(194, 100%, 96%, 0.899);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: hsl(192, 100%, 9%);
-    color: hsl(193, 100%, 96%);
-    padding: 120px 0 40px 50px;
-    font-family: "Open Sans";
-    font-size: 16px;    
-    line-height: 1.5;
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+  padding: 120px 0 40px 50px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* Footer LEFT */
 
 footer div#footer-left {
-    width: 40%;
-    float: left;
+  width: 40%;
+  float: left;
 }
 
 footer div#footer-left #footer-logo {
-    background-color: white;
-    margin-bottom: 23px;
-    margin-top: 70px;
+  background-color: white;
+  margin-bottom: 23px;
+  margin-top: 70px;
 }
 
 footer div#spans {
-    float: left;
-    width: 5%;
-    height: 200px;
-    margin-top: 22px;
-    padding-right: 15px
+  float: left;
+  width: 5%;
+  height: 200px;
+  margin-top: 22px;
+  padding-right: 15px;
 }
 
 footer div#spans #img1 {
-    margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 footer div#spans #img2 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 footer div#footer-left p {
-    width: 80%;
-    padding-bottom: 5px;
+  width: 80%;
+  padding-bottom: 5px;
 }
 
-
 footer div#footer-left div#spans img {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* Footer middle */
 
 footer div#footer-middle {
-    float: left;
-    height: 400px;
-    font-size: 18px;
+  float: left;
+  height: 400px;
+  font-size: 18px;
 }
 
 /* Footer middle a */
 footer div#footer-middle-a {
-    float: left;
-    margin-left: -35px;
-    margin-top: 128px
+  float: left;
+  margin-left: -35px;
+  margin-top: 128px;
 }
 
 /* Footer middle a and b */
-footer div#footer-middle-a ul, footer div#footer-middle-b ul {
-    list-style: none;
+footer div#footer-middle-a ul,
+footer div#footer-middle-b ul {
+  list-style: none;
 }
 
-footer div#footer-middle-a ul li, footer div#footer-middle-b ul li{
-    margin-top: 20px;   
+footer div#footer-middle-a ul li,
+footer div#footer-middle-b ul li {
+  margin-top: 20px;
 }
 
-footer div#footer-middle-a ul li a, footer div#footer-middle-b ul li a {
-    text-decoration: none;
-    color: hsl(193, 100%, 96%);
+footer div#footer-middle-a ul li a,
+footer div#footer-middle-b ul li a {
+  text-decoration: none;
+  color: hsl(193, 100%, 96%);
 }
 
 /* footer middle b */
 
 footer div#footer-middle-b {
-    float: right;
-    margin-left: 78px;
-    margin-top: 128px
+  float: right;
+  margin-left: 78px;
+  margin-top: 128px;
 }
 
 /* Footer Right */
 
 footer div#footer-right {
-    float: right;
-    margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 }
- 
+
 footer div#footer-right i {
-    margin-top: 150px;
-    margin-left: 10px;
-    padding: 5px;
-    border-radius: 50%;
-    border: 1px solid white;
+  margin-top: 150px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 
 footer div#footer-right i#icon-1 {
-    padding-left: 7px;
-    padding-right: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 footer div#footer-right p {
-    font-size: 12px;
-    margin-top: 180px;
+  font-size: 12px;
+  margin-top: 180px;
 }
 
 /* Media Queries */
+@media only screen and (min-width: 1920px) {
+  .container {
+    width: 80%;
+  }
 
- @media(max-width: 500px) {
+  .container-2 {
+    width: 70%;
+  }
 
-/* Global */
+  #overlap div#get-started {
+    width: 45%;
+    margin-left: -22.5%;
+  }
+}
 
-.body-div {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  /* Global */
+
+  .body-div {
     min-height: 630px;
     margin-bottom: 50px;
-}
-     
-/* Showcase section */
+  }
 
-#showcase {
+  /* Showcase section */
+
+  #showcase {
     background: url("/images/bg-hero-desktop.svg");
     background-color: hsl(208, 11%, 55%);
     padding-bottom: 40px;
-}
+  }
 
-#showcase header img {
+  #showcase header img {
     float: left;
     margin-top: 40px;
     width: 35%;
     height: 35%;
-}
+  }
 
-#showcase div#logo {
+  #showcase div#logo {
     width: 100%;
-}
+  }
 
-#showcase header button {
+  #showcase header button {
     float: right;
     margin-top: 35px;
     width: 30%;
@@ -364,30 +381,45 @@ footer div#footer-right p {
     font-size: 0.8em;
     font-weight: bold;
     box-shadow: 1px 3px 7px -4px hsl(208, 11%, 55%);
-}
+  }
 
-#showcase div#showcase-info, #showcase div#showcase-image, #main div#grow h2, #main div#grow p, #main div#grow img, #main div#flow img,#main div#flow h2, #main div#flow p, #main div#users img, #main div#users h2, #main div#users p, footer div#footer-left, footer div#footer-middle, footer div#footer-right, footer div#footer-middle-a, footer div#footer-middle-b {
+  #showcase div#showcase-info,
+  #showcase div#showcase-image,
+  #main div#grow h2,
+  #main div#grow p,
+  #main div#grow img,
+  #main div#flow img,
+  #main div#flow h2,
+  #main div#flow p,
+  #main div#users img,
+  #main div#users h2,
+  #main div#users p,
+  footer div#footer-left,
+  footer div#footer-middle,
+  footer div#footer-right,
+  footer div#footer-middle-a,
+  footer div#footer-middle-b {
     float: none;
-}
+  }
 
-#showcase div#showcase-info {
+  #showcase div#showcase-info {
     text-align: center;
     width: 93%;
     margin: 105px auto 0px;
-}
+  }
 
-#showcase div#showcase-info h1 {
+  #showcase div#showcase-info h1 {
     font-size: 1.75em;
     font-weight: 600;
-}
+  }
 
-#showcase div#showcase-info p {
+  #showcase div#showcase-info p {
     margin-top: 32px;
     line-height: 1.5;
     font-size: 22px;
-}
+  }
 
-#showcase div#showcase-info button {
+  #showcase div#showcase-info button {
     width: 75%;
     height: 55px;
     border-radius: 30px;
@@ -399,44 +431,44 @@ footer div#footer-right p {
     font-family: "Open Sans";
     font-weight: 600;
     letter-spacing: 0.05em;
-}
+  }
 
-#showcase div#showcase-image img {
+  #showcase div#showcase-image img {
     height: 280px;
     padding-left: 30px;
     margin-top: 5px;
-}
+  }
 
-/* Main */
+  /* Main */
 
-#main {
+  #main {
     margin-bottom: -10px;
-}
-/* Grow Div */
+  }
+  /* Grow Div */
 
-#main div#grow {
+  #main div#grow {
     margin-top: -68px;
     text-align: center;
     width: 100%;
-}
+  }
 
-#main div#grow img {
+  #main div#grow img {
     position: relative;
     top: 70px;
     height: 250px;
     padding-left: 30px;
     padding-top: 40px;
-}
+  }
 
-#main div#grow h2 {
+  #main div#grow h2 {
     position: relative;
-    top: 395px; 
+    top: 395px;
     width: 100%;
     left: 50%;
     margin-left: -50%;
-}
+  }
 
-#main div#grow p {
+  #main div#grow p {
     position: relative;
     top: 390px;
     width: 80%;
@@ -445,161 +477,165 @@ footer div#footer-right p {
     line-height: 1.6em;
     font-family: "Open Sans";
     padding-top: 5px;
-}
+  }
 
-/* Flow */
-#main div#flow {
+  /* Flow */
+  #main div#flow {
     width: 100%;
     text-align: center;
     margin-bottom: -80px;
-}
+  }
 
-#main div#flow img {
+  #main div#flow img {
     height: 250px;
     width: 80%;
     margin-left: 0px;
-}
+  }
 
-#main div#flow h2 {
+  #main div#flow h2 {
     position: relative;
     width: 100%;
     bottom: 90px;
-}
+  }
 
-#main div#flow p {
+  #main div#flow p {
     position: relative;
     width: 75%;
     line-height: 1.6em;
     left: 50%;
     margin-left: -37.5%;
     bottom: 90px;
-}
+  }
 
-/* USERS */
+  /* USERS */
 
-#main div#users {
+  #main div#users {
     width: 100%;
     text-align: center;
-}
+  }
 
-#main div#users h2, #main div#users img, #main div#users p {
+  #main div#users h2,
+  #main div#users img,
+  #main div#users p {
     position: relative;
-}
+  }
 
-#main div#users img {
+  #main div#users img {
     height: 240px;
     margin-left: 30px;
     bottom: 35px;
-}
+  }
 
-#main div#users h2 {
+  #main div#users h2 {
     top: 395px;
-}
+  }
 
-#main div#users p {
+  #main div#users p {
     line-height: 1.6em;
     width: 72%;
     left: 50%;
     margin-left: -36%;
     top: 395px;
-}
+  }
 
-/* Overlap */
+  /* Overlap */
 
-#overlap {
+  #overlap {
     margin-bottom: -50px;
-}
+  }
 
-#overlap div#get-started {
+  #overlap div#get-started {
     width: 95%;
     left: 50%;
     margin-left: -47.5%;
     min-height: 230px;
-}
+  }
 
-#overlap div#get-started h1 {
+  #overlap div#get-started h1 {
     position: relative;
     bottom: 10px;
     font-size: 23px;
-}
+  }
 
-#overlap div#get-started button {
+  #overlap div#get-started button {
     width: 60%;
     height: 55px;
     font-size: 14px;
-}
+  }
 
-/* Footer */
+  /* Footer */
 
-footer {
+  footer {
     font-size: 19px;
-}
+  }
 
-footer div.container {
+  footer div.container {
     width: 100%;
     margin-left: -30px;
-}
+  }
 
-footer div#footer-left {
+  footer div#footer-left {
     width: 100%;
     margin-left: 0px;
-}
+  }
 
-footer div#footer-left #footer-logo {
+  footer div#footer-left #footer-logo {
     margin-top: 57px;
-}
+  }
 
-footer div#footer-left p {
+  footer div#footer-left p {
     margin-top: 5px;
     padding-bottom: 19px;
-}
+  }
 
-footer div#spans {
+  footer div#spans {
     margin-top: 12px;
     padding-right: 30px;
     height: 270px;
-}
+  }
 
-footer div#spans #img1, #img2, #img3 {
+  footer div#spans #img1,
+  #img2,
+  #img3 {
     height: 22px;
-}
+  }
 
-footer div#spans #img1 {
+  footer div#spans #img1 {
     padding-bottom: 50px;
-}
+  }
 
-footer div#spans #img2 {
+  footer div#spans #img2 {
     padding-bottom: 15px;
-}
+  }
 
-/* Footer middle */
+  /* Footer middle */
 
-footer div#footer-middle {
+  footer div#footer-middle {
     font-size: 23px;
-}
+  }
 
-footer div#footer-middle-a {
+  footer div#footer-middle-a {
     margin-top: 60px;
     margin-bottom: -20px;
-}
+  }
 
-footer div#footer-middle-b {
+  footer div#footer-middle-b {
     margin-top: 42px;
     margin-left: -36px;
-}
+  }
 
-/* Footer right */
+  /* Footer right */
 
-footer div#footer-right {
+  footer div#footer-right {
     text-align: center;
     position: relative;
     bottom: 168px;
     margin-bottom: -300px;
-}
+  }
 
-footer div#footer-right p {
+  footer div#footer-right p {
     position: relative;
     bottom: 145px;
     font-size: 14px;
-}
+  }
 }
