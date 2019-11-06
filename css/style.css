@@ -1,3 +1,8 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
@@ -345,7 +350,7 @@ footer div#footer-right p {
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   /* Global */
 
   .body-div {
@@ -637,5 +642,51 @@ footer div#footer-right p {
     position: relative;
     bottom: 145px;
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #showcase div#showcase-image img {
+    height: 200px;
+  }
+
+  /* Grow div */
+
+  #main div#grow img {
+    top: 0px;
+    padding-left: 10px;
+  }
+
+  #main div#grow h2 {
+    top: 335px;
+  }
+
+  #main div#grow p {
+    top: 340px;
+  }
+
+  /* Users Div */
+
+  #main div#users img {
+    height: 220px;
+    margin-left: 20px;
+
+    bottom: 140px;
+  }
+
+  #main div#users h2 {
+    top: 335px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #main div#users p {
+    top: 345px;
+  }
+
+  /* Overlap */
+
+  #overlap div#get-started button {
+    margin-top: 0;
   }
 }
